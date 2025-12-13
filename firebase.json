@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "site": "gedo-restaurant",
+    "public": "dist",
+    "cleanUrls": true,
+    "rewrites": [
+      { "source": "**", "destination": "/index.html" }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
